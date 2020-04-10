@@ -1,0 +1,160 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="login.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<title>Login Page</title>
+<script>
+$(document).ready(function(){
+				 
+	$("#login-form").hide();
+
+	$(".login").click(function(){
+	  $("#signup-form").hide();
+	  $("#login-form").show();
+
+	});
+
+	$(".signup").click(function(){
+	  $("#signup-form").show();
+	  $("#login-form").hide();
+
+	});
+
+	$(".btn2").click(function(){
+	  $(".input").val("");
+	});
+});
+</script>	
+	
+</head>
+
+<body>
+	<div class="full-login">
+		<header class="top-header">
+		<div class="heading">
+			<h1>Farm<br>
+			Assistant</h1>
+		</div>
+		  <nav class="top-nav">
+			  <ul>
+					<li><a href="/index.html">Home</a></li>
+				    <li class="inputs"><a class="inputs-btn" href="program.hml">Inputs</a>
+				  			  <div class="dropdown-content">
+							  <a href="#">Seeds</a>
+							  <a href="#">Fertilizers</a>
+							  <a href="#">Insecticides</a>
+							  <a href="#">Laboratories</a>
+							  <a href="#">Acts and Rules</a>  
+							  </div>
+				    </li>
+					<li><a href="schemes.html">Schemes</a></li>
+					<li><a href="About.html">Departments</a></li>
+					<li><a href="contact.html">Projects</a></li>
+					<li><a href="program.hml">Universities</a></li>
+				    <li style="border: none;"><a href="login.html">Login</a></li>
+				</ul>
+			</nav>
+		</header>
+			
+		<div class="main-tile">
+			<div class="container">
+				<div class="login-img">
+				 
+				 <div class="Cover">
+					 <p id="Cover-head">YOUR SECTION</p>
+					 <div class="form-btn">
+					 <button class="btn login" >Log In</button><button class="btn signup" >Sign Up</button> 
+					 </div>
+					
+				</div>
+		
+			    </div>
+			
+				<div class="form">
+						<div class="tab-content">
+						<div id="signup-form">   
+						  <h1>Register Here</h1>
+
+						  <form action="/" method="post">
+
+						  <div class="top-row">
+							<div class="field-wrap">
+							  <label>
+								First Name<span class="req">*</span>
+							  </label>
+							  <input type="text" class="input" required autocomplete="off" />
+							</div>
+
+							<div class="field-wrap">
+							  <label>
+								Last Name<span class="req">*</span>
+							  </label>
+							  <input type="text" class="input" required autocomplete="off">
+							</div>
+						  </div>
+
+						  <div class="field-wrap">
+							<label>
+							  Email Address<span class="req">*</span>
+							</label>
+							<input type="email"  class="input" required autocomplete="off"/>
+						  </div>
+
+						  <div class="field-wrap">
+							<label>
+							  Set A Password<span class="req">*</span>
+							</label>
+							<input type="password" class="input" required autocomplete="off"/>
+						  </div>
+
+						  <button type="submit" class="btn2 button-block">Get Started</button>
+
+						  </form>
+
+						</div>
+
+						<div id="login-form">   
+						  <h1>Welcome Back!</h1>
+
+						  <form action="/" method="post">
+
+								<div class="field-wrap">
+								<label>
+								  Email Address<span class="req">*</span>
+								</label>
+								<input type="email" class="input" required autocomplete="off"/>
+							    </div>
+
+							  <div class="field-wrap">
+								<label>
+								  Password<span class="req">*</span>
+								</label>
+								<input type="password" class="input" required autocomplete="off"/>
+							  </div>
+
+							  <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+							  <button class="btn2 button-block">Log In</button>
+
+						  </form>
+
+						</div>
+
+					  </div><!-- tab-content -->
+				
+				
+				</div>
+			
+			</div>
+		
+		
+		
+		</div>
+		
+		
+		</div>
+</body>
+</html>

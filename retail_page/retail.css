@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+.main-tile{
+    background-color: #f9f9fb;
+    
+    height: 580px;
+    border-radius: 40px 40px 0px 0px;
+    margin-top: -35px;
+    -webkit-box-shadow: inset 0px 0px 20px 6px #404040;
+    box-shadow: inset 0px 24px 22px -20px;
+    display: block;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    animation: slide 30s infinite;
+    background-position: center center;
+    background-size: cover;
+	padding: 0% 10;
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+    font-size: 10px;
+    padding: auto 100px;
+    padding-left: 125px;
+    padding-right: 125px;
+    width: 1154px;
+	
+}
+.row{
+	flex:1;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+}
+.container{
+    width: 333px;
+    height: 460px;
+    margin-right: 40px;
+    flex: 1;
+    display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 5px 0px grey;
+		border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.img{
+	
+	overflow: hidden;
+    background-position: center;
+	background-size: cover;
+    height: 55%;
+	border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+	flex:1;
+}
+.one{
+    background-image: url(/images/ret-onion.jpg);	
+}
+
+.two{
+    background-image: url(/images/ret-turm.jpg);	
+}
+
+
+.three{
+    background-image: url(/images/ret-brnjl.jpg);
+}
+
+.four{
+    background-image: url(/images/ret-tomato.jpg);
+}
+.five{
+    background-image: url(/images/ret-cg.jpg);	
+}
+.six{
+    background-image: url(/images/ret-cereals.jpg);	
+}
+.info{
+	flex:1;
+    height: 64%;
+    background-color: rgba(169,255,122,1.00);
+    border-radius: 30px 30px 10px 10px;
+    margin-top: -40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    /* [disabled]font-size: medium; */
+}
+
+.i-one{
+	background-color:  #87bdd8;
+}
+.i-two{
+    background-color:  #87bdd8;
+	
+}
+.i-three{
+    background-color:  #ff6f69;
+	
+}
+
+i{
+    z-index: 1;
+    width: 50px;
+    height: 60px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 14px;
+    border-radius: 50px;
+    font-size: 60px;
+    color: #FF063B;
+    background-color: white;
+    padding-bottom: 7px;
+    margin-top:5px;
+    margin-left: 223px;
+    text-align: center;
+	transition: all .2s ease-in-out 0s;
+}
+
+i:hover{
+	transform: scale(0.7)
+}
+
+#bar-icon{
+	margin-left: 0px;
+	font-size: 34px;
+	background-color: transparent;
+	padding: 0px;
+}
+.product{
+    font-size: 26px;
+    font-weight: 900;
+	
+}
+
+.name{
+    text-shadow: 0px 0px rgba(200,200,200,1.00);
+    color: rgba(55,55,55,1.00);
+    font-weight: 700;
+    font-size: 20px;
+	
+}
+.price{
+    text-align: center;
+    background-color: rgba(233,233,233,1.00);
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-weight: 900;
+    font-size: 24px;
+    border-radius: 31px;
+    -webkit-box-shadow: 0px 0px 14px -2px;
+    box-shadow: 0px 0px 14px -2px;
+	
+}
+
+.order{
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: 900;
+    font-size: 24px;
+    border-radius: 31px;
+    -webkit-box-shadow: 0px 0px 10px -2px;
+    box-shadow: 0px 0px 5px 0px gray;
+	background-color: #00D359;
+	transition: all .2s ease-in-out 0s;
+	color: white;
+}
+.order:hover{
+	transform: scale(1.1);
+}
+
+.bar{
+	margin-bottom: 30px;
+}
+
+
+.bar-box{
+    width: 957px;
+    height: 35px;
+    border-radius: 39px;
+    border-color: grey;
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding-left: px;
+	
+}
+.bar-box:focus{
+	border-color: #00D359;
+}
